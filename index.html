@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vineyard Elegance | Premium Wines</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Raleway:wght@300;400;600&display=swap" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">Vineyard Elegance</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#products">Products</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link cart-link" href="#cart">
+                            <i class="fas fa-shopping-cart"></i> Cart
+                            <span class="cart-count">0</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6">
+                    <h1>Discover Exceptional Wines</h1>
+                    <p>Curated selections from the world's finest vineyards, delivered to your doorstep.</p>
+                    <a href="#products" class="btn btn-primary">Shop Now</a>
+                </div>
+                <div class="col-lg-6">
+                    <img src="hero image.jpg" alt="Wine Selection" class="img-fluid hero-image">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Products -->
+    <section class="featured-products" id="products">
+        <div class="container">
+            <h2 class="section-title">Featured Wines</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="product-card">
+                        <div class="product-image">
+                            <img src="product 1.jpg" alt="Red Wine" class="img-fluid">
+                        </div>
+                        <div class="product-info">
+                            <h3>Château Margaux 2018</h3>
+                            <p class="product-description">A bold and rich Bordeaux blend with notes of black cherry and subtle oak.</p>
+                            <div class="product-footer">
+                                <span class="price">$89.99</span>
+                                <button class="btn btn-outline-primary add-to-cart" data-id="1" data-name="Château Margaux 2018" data-price="89.99">Add to Cart</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="product-card">
+                        <div class="product-image">
+                            <img src="product 2.jpg" alt="White Wine" class="img-fluid">
+                        </div>
+                        <div class="product-info">
+                            <h3>Cloudy Bay Sauvignon Blanc</h3>
+                            <p class="product-description">Crisp and refreshing with vibrant notes of citrus and tropical fruits.</p>
+                            <div class="product-footer">
+                                <span class="price">$45.99</span>
+                                <button class="btn btn-outline-primary add-to-cart" data-id="2" data-name="Cloudy Bay Sauvignon Blanc" data-price="45.99">Add to Cart</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="product-card">
+                        <div class="product-image">
+                            <img src="product 3.jpg" alt="Sparkling Wine" class="img-fluid">
+                        </div>
+                        <div class="product-info">
+                            <h3>Dom Pérignon Vintage</h3>
+                            <p class="product-description">Elegant champagne with fine bubbles and complex notes of brioche and citrus.</p>
+                            <div class="product-footer">
+                                <span class="price">$199.99</span>
+                                <button class="btn btn-outline-primary add-to-cart" data-id="3" data-name="Dom Pérignon Vintage" data-price="199.99">Add to Cart</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="text-center mt-4">
+                <a href="#products" class="btn btn-secondary">View All Wines</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about-section" id="about">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6">
+                    <img src="about img.jpg" alt="Vineyard" class="img-fluid about-image">
+                </div>
+                <div class="col-lg-6">
+                    <h2 class="section-title">Our Story</h2>
+                    <p>At Vineyard Elegance, we believe that every bottle tells a story. Our journey began in 2005 when our founder, passionate about wine, embarked on a mission to bring exceptional wines to discerning enthusiasts.</p>
+                    <p>We work directly with boutique wineries and established estates across the globe, ensuring that each bottle in our collection meets our strict quality standards. Our team of sommeliers carefully selects each wine, considering flavor profiles, vineyard practices, and heritage.</p>
+                    <p>From the sun-drenched hills of Tuscany to the cool climate vineyards of New Zealand, our collection represents the diversity and artistry of winemaking traditions worldwide.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Reviews Section -->
+    <section class="reviews-section">
+        <div class="container">
+            <h2 class="section-title text-center">What Our Customers Say</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="review-card">
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <p class="review-text">"The selection of wines is exceptional, and the delivery was prompt. My new favorite online wine shop!"</p>
+                        <p class="reviewer">- James P.</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="review-card">
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <p class="review-text">"Their personalized recommendations were spot on. Found wines I never would have discovered otherwise."</p>
+                        <p class="reviewer">- Sarah M.</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="review-card">
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                        <p class="review-text">"The packaging was secure and the wines arrived in perfect condition. Will definitely order again!"</p>
+                        <p class="reviewer">- David R.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Newsletter Section -->
+    <section class="newsletter-section">
+        <div class="container">
+            <div class="newsletter-content">
+                <h2>Join Our Wine Club</h2>
+                <p>Subscribe to our newsletter for exclusive offers, new arrivals, and expert wine pairing suggestions.</p>
+                <form id="newsletter-form" class="newsletter-form">
+                    <div class="input-group">
+                        <input type="email" class="form-control" placeholder="Your email address" required>
+                        <button class="btn btn-primary" type="submit">Subscribe</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Cart Section -->
+    <section class="cart-section" id="cart">
+        <div class="container">
+            <h2 class="section-title">Shopping Cart</h2>
+            <div id="cart-items" class="cart-items">
+                <p class="empty-cart-message">Your cart is empty.</p>
+                <!-- Cart items will be added here dynamically -->
+            </div>
+            <div class="cart-summary">
+                <div class="row">
+                    <div class="col-md-6 offset-md-6">
+                        <div class="cart-totals">
+                            <div class="cart-total-row">
+                                <span>Subtotal:</span>
+                                <span id="cart-subtotal">$0.00</span>
+                            </div>
+                            <div class="cart-total-row">
+                                <span>Shipping:</span>
+                                <span>$0.00</span>
+                            </div>
+                            <div class="cart-total-row total">
+                                <span>Total:</span>
+                                <span id="cart-total">$0.00</span>
+                            </div>
+                            <button class="btn btn-primary checkout-btn" id="checkout-btn" disabled>Proceed to Checkout</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <h3>Vineyard Elegance</h3>
+                    <p>Premium wines delivered to your doorstep.</p>
+                </div>
+                <div class="col-md-4">
+                    <h3>Quick Links</h3>
+                    <ul class="footer-links">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="#about">About Us</a></li>
+                        <li><a href="#products">Shop Wines</a></li>
+                        <li><a href="#cart">Cart</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                    <h3>Contact Us</h3>
+                    <p><i class="fas fa-envelope"></i> info@vineyardelegance.com</p>
+                    <p><i class="fas fa-phone"></i> (555) 123-4567</p>
+                    <div class="social-icons">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Vineyard Elegance. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Custom JS -->
+    <script src="main.js"></script>
+</body>
+</html>
